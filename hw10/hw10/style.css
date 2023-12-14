@@ -1,0 +1,205 @@
+p{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+main > p {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, -50%);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    height: 20rem;
+    padding: 0 2rem 0 2rem;
+    justify-content: center;
+}
+
+.headerConteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerOuter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 10rem;
+    width: 100%;
+    padding: 2rem;
+}
+.headerInner{
+    background-color: black;
+    width: 80%;
+    height: 80%;
+}
+
+.devider{
+    background-color: gray;
+    text-align: center;
+    height: 20px;
+}
+
+
+.menueContainer{
+    display: flex;
+    height: 15rem;
+    width: 100%;
+}
+.red{
+    flex-grow: 1;
+    background-color: red;
+}
+.orange{
+    flex-grow: 1;
+    background-color: orange;
+}
+.blue{
+    flex-grow: 1;
+    background-color: blue;
+}
+.yellow{
+    flex-grow: 1;
+    background-color: yellow;
+}
+
+.lastSection{
+    display: flex;
+    height: 20rem;
+
+}
+.left{
+    background-color: green;
+    flex-grow: 1;
+    overflow: hidden;
+}
+.leftContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    margin: 4rem 2rem 0 2rem;
+    height: 100%;
+    margin-top: 4rem;
+    overflow: hidden;
+}
+.leftectiion{
+    display: flex;
+    height: 100%;
+}
+.aLeft{
+    margin-top: 4rem;
+    height: 100%;
+    background: pink;
+    width: 50%;
+}
+.bLeft{
+    margin-top: 4rem;
+    height: 100%;
+    background: yellow;
+    width: 50%;
+}
+.center{
+    background-color: aqua;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.center > p{
+    height: 7rem;
+}
+.right{
+    background-color: blue;
+    flex-grow: 1;
+}
+
+
+.centerSection{
+    height: 100%;
+    display: flex;
+}
+.centerLeft{
+    background-color: red;
+    flex-grow: 1;
+}
+.centerCenter{
+    background: yellow;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.centerContainer{
+    display: flex;
+    height: 100%;
+    align-items: end;
+}
+.aC{
+    background-color: orange;
+    flex-grow: 1;
+    height: 85%;
+    text-align: center;
+}
+.bC{
+    background: red;
+    flex-grow: 1;
+    height: 60%;
+    text-align: center;
+}
+
+.centerRight{
+    background: orange;
+    flex-grow: 1;
+}
+
+.right > p{
+    height: 20%;
+}
+.reghtContainer{
+    height: 80%;
+    display: flex;
+    align-items: end;
+    justify-content: e;
+}
+
+.rightLeft{
+    background-color: aqua;
+    height: 6rem;
+    flex-grow: 1;
+}
+.rightCenter{
+    background-color: yellow;
+    height: 8rem;
+    flex-grow: 1;
+    position: relative;
+    bottom: 4rem;
+}
+.rightRight{
+    background-color: orange;
+    height: 8rem;
+    flex-grow: 1;
+    align-self: self-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.pRight{
+    width: 60%;
+    background: #000;
+    color: white;
+    position: relative;
+    padding: 0.2rem;
+    margin: 0;
+}
+.pLeft{
+    width: 60%;
+    background: #000;
+    color: white;
+    align-self: flex-end;
+    padding: 0.2rem;
+}
