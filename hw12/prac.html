@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table {
+            width: 370px;
+            margin: 100px auto;
+            border-collapse: collapse;
+            cursor: pointer;
+        }
+
+        table td {
+            padding: 20px;
+            transition: 1s;
+        }
+
+        table td:nth-child(2\n) {
+            background-color: aquamarine;
+        }
+
+        table td:nth-child(2\n + 1) {
+            background-color: red;
+        }
+
+        table td:nth-child(2\n + 3) {
+            background-color: khaki;
+
+        }
+
+        table td:nth-child(2\n + 4) {
+            background-color: darkorange;
+        }
+
+        table td:hover {
+            background-color: pink;
+        }
+
+    </style>
+
+    <table border="1">
+        <tr>
+            <td>кефир</td>
+            <td>молоко</td>
+            <td>сметана</td>
+            <td>сыр</td>
+            <td>лаваш</td>
+        </tr>
+        <tr>
+            <td>мясо</td>
+            <td>птица</td>
+            <td>свинина</td>
+            <td>творог</td>
+            <td>яйца</td>
+        </tr>
+        <tr>
+            <td>овощи</td>
+            <td>фрукты</td>
+            <td rowspan="3"> ягоды </td>
+            <td>злаки</td>
+            <td>вода</td>
+        </tr>
+        <tr>
+            <td colspan="2"> говядина </td>
+            <!-- <td> кролик </td> -->
+            <!-- <td> утка </td> -->
+            <td>дичь</td>
+            <td>лосось</td>
+        </tr>
+        <tr>
+            <td>треска</td>
+            <td>хек</td>
+            <!-- <td> мидии </td> -->
+            <td>креветки</td>
+            <td>творог</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
